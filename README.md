@@ -40,13 +40,15 @@ git commit -a -m "commit message"
 ```
 git remote -v
 ```
+> this command is used to check if a remote command exists and is active
 - adding a remote connection
 ```
 git remote add connetcion-name connection-url
 eg. git remote add origin http://github.com/username
 ```
+> the above command is used to add a remote connection to your github 
 - removing a remote connection
 ```
-git remote remove connetcion-name 
+git remote remove connection-name 
 eg. git remote remove origin 
 ```

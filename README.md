@@ -33,3 +33,20 @@ git add .
 git commit -m "commit message"
 git commit -a -m "commit message"
 ```
+>the first command in the code block above is used to commit a file that has been recently staged while the second command is used to add and commit a file that git is already tracking
+
+## setting up a remote connection
+- checking if a connection already exists
+```
+git remote -v
+```
+- adding a remote connection
+```
+git remote add connetcion-name connection-url
+eg. git remote add origin http://github.com/username
+```
+- removing a remote connection
+```
+git remote remove connetcion-name 
+eg. git remote remove origin 
+```
